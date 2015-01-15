@@ -14,6 +14,7 @@
 #import "SDMreViewController.h"
 #import "SDResizeForBannerViewController.h"
 #import "SDBannerAutoLayoutViewController.h"
+#import "SDVideoViewController.h"
 #import <Seamless/Seamless.h>
 #import "Define.h"
 
@@ -68,13 +69,7 @@
 
 -(void)showCurrentVersion
 {
-    UIAlertController *controller = [UIAlertController alertControllerWithTitle:@"Info" message:@"The version of Seamless framework used in this demo is v1.3.0" preferredStyle:UIAlertControllerStyleAlert];
-    
-    UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
-        [controller dismissViewControllerAnimated:YES completion:nil];
-    }];
-    [controller addAction:ok];
-    [self.navigationController presentViewController:controller animated:YES completion:nil];
+    [[[UIAlertView alloc] initWithTitle:@"Info" message:@"The version of Seamless framework used in this demo is v1.4.0" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
 }
 
 -(BOOL)prefersStatusBarHidden
@@ -84,7 +79,7 @@
 
 -(BOOL)shouldAutorotate
 {
-    return NO;
+    return YES;
 }
 
 #pragma mark - table view delegates
@@ -108,7 +103,11 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-        return (self.view.frame.size.height - self.navigationController.navigationBar.frame.size.height)/[self.titles count];
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        return 200.0;
+    }else{
+        return 100.0;
+    }
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -149,6 +148,19 @@
             break;
         case 7:{ // MRE inside a scroll view
             SDMreViewController *controller = [[SDMreViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 8:{ // Simple Video as Modal View Controller
+            
+            NSURL *url = [[NSBundle mainBundle] URLForResource:@"ford" withExtension:@"mp4"];
+            NSString *entity = @"simple-modal-view-video";
+            
+            [[SLPlayerManager sharedManager] presentPlayerWithUrl:url entity:entity];
+        }
+            break;
+        case 9:{ // Adding Video Player to Custom view
+            SDVideoViewController *controller = [[SDVideoViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;

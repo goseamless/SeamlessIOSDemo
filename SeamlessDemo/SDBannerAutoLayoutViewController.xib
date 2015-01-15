@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SDBannerAutoLayoutViewController">
             <connections>
-                <outlet property="heightConstraint" destination="N6B-yw-KSk" id="p47-ZM-v1y"/>
+                <outlet property="heightConstraint" destination="fNH-Of-BbG" id="n1u-ws-bGV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="webView" destination="OWc-FP-Nrn" id="9lt-sa-YGX"/>
             </connections>
@@ -18,21 +18,11 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OWc-FP-Nrn">
-                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="580" id="N6B-yw-KSk"/>
+                        <constraint firstAttribute="height" constant="580" id="fNH-Of-BbG"/>
                     </constraints>
-                    <variation key="default">
-                        <mask key="constraints">
-                            <exclude reference="N6B-yw-KSk"/>
-                        </mask>
-                    </variation>
-                    <variation key="widthClass=compact">
-                        <mask key="constraints">
-                            <include reference="N6B-yw-KSk"/>
-                        </mask>
-                    </variation>
                     <connections>
                         <outlet property="delegate" destination="-1" id="CcW-it-TMY"/>
                     </connections>
@@ -40,30 +30,10 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="OWc-FP-Nrn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="SpE-ZL-8ZC"/>
-                <constraint firstItem="OWc-FP-Nrn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="t4C-IZ-GL0"/>
-                <constraint firstAttribute="trailing" secondItem="OWc-FP-Nrn" secondAttribute="trailing" id="vS5-DB-51O"/>
+                <constraint firstAttribute="trailing" secondItem="OWc-FP-Nrn" secondAttribute="trailing" id="TyV-QP-g9w"/>
+                <constraint firstItem="OWc-FP-Nrn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="ut2-s1-CqC"/>
+                <constraint firstItem="OWc-FP-Nrn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wbW-qt-dlR"/>
             </constraints>
-            <variation key="default">
-                <mask key="subviews">
-                    <exclude reference="OWc-FP-Nrn"/>
-                </mask>
-                <mask key="constraints">
-                    <exclude reference="SpE-ZL-8ZC"/>
-                    <exclude reference="t4C-IZ-GL0"/>
-                    <exclude reference="vS5-DB-51O"/>
-                </mask>
-            </variation>
-            <variation key="widthClass=compact">
-                <mask key="subviews">
-                    <include reference="OWc-FP-Nrn"/>
-                </mask>
-                <mask key="constraints">
-                    <include reference="SpE-ZL-8ZC"/>
-                    <include reference="t4C-IZ-GL0"/>
-                    <include reference="vS5-DB-51O"/>
-                </mask>
-            </variation>
             <point key="canvasLocation" x="249" y="262"/>
         </view>
     </objects>
