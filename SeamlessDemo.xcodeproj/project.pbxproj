@@ -9,52 +9,52 @@
 /* Begin PBXBuildFile section */
 		2B5F223E1A2DC29300FD3A12 /* SDBannerAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5F223C1A2DC29300FD3A12 /* SDBannerAutoLayoutViewController.m */; };
 		2B5F223F1A2DC29300FD3A12 /* SDBannerAutoLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F223D1A2DC29300FD3A12 /* SDBannerAutoLayoutViewController.xib */; };
-		2B76BC431A67BA760038CCEE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC191A67BA760038CCEE /* LICENSE */; };
-		2B76BC441A67BA760038CCEE /* MPAdBrowserController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC1A1A67BA760038CCEE /* MPAdBrowserController.nib */; };
-		2B76BC451A67BA760038CCEE /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC1B1A67BA760038CCEE /* MPCloseButtonX.png */; };
-		2B76BC461A67BA760038CCEE /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC1C1A67BA760038CCEE /* MPCloseButtonX@2x.png */; };
-		2B76BC471A67BA760038CCEE /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC1D1A67BA760038CCEE /* MRAID.bundle */; };
-		2B76BC481A67BA760038CCEE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2B76BC1E1A67BA760038CCEE /* README.md */; };
-		2B76BC491A67BA760038CCEE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC1F1A67BA760038CCEE /* README.txt */; };
-		2B76BC4A1A67BA760038CCEE /* SLButtonPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC201A67BA760038CCEE /* SLButtonPattern.png */; };
-		2B76BC4B1A67BA760038CCEE /* SLButtonPattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC211A67BA760038CCEE /* SLButtonPattern@2x.png */; };
-		2B76BC4C1A67BA760038CCEE /* SLIconClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC221A67BA760038CCEE /* SLIconClose.png */; };
-		2B76BC4D1A67BA760038CCEE /* SLIconClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC231A67BA760038CCEE /* SLIconClose@2x.png */; };
-		2B76BC4E1A67BA760038CCEE /* SLIconExpand.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC241A67BA760038CCEE /* SLIconExpand.png */; };
-		2B76BC4F1A67BA760038CCEE /* SLIconExpand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC251A67BA760038CCEE /* SLIconExpand@2x.png */; };
-		2B76BC501A67BA760038CCEE /* SLIconFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC261A67BA760038CCEE /* SLIconFacebook.png */; };
-		2B76BC511A67BA760038CCEE /* SLIconFacebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC271A67BA760038CCEE /* SLIconFacebook@2x.png */; };
-		2B76BC521A67BA760038CCEE /* SLIconLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC281A67BA760038CCEE /* SLIconLocation.png */; };
-		2B76BC531A67BA760038CCEE /* SLIconLocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC291A67BA760038CCEE /* SLIconLocation@2x.png */; };
-		2B76BC541A67BA760038CCEE /* SLIconMail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC2A1A67BA760038CCEE /* SLIconMail.png */; };
-		2B76BC551A67BA760038CCEE /* SLIconMail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC2B1A67BA760038CCEE /* SLIconMail@2x.png */; };
-		2B76BC561A67BA760038CCEE /* SLIconShrink.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC2C1A67BA760038CCEE /* SLIconShrink.png */; };
-		2B76BC571A67BA760038CCEE /* SLIconShrink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC2D1A67BA760038CCEE /* SLIconShrink@2x.png */; };
-		2B76BC581A67BA760038CCEE /* SLIconSms.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC2E1A67BA760038CCEE /* SLIconSms.png */; };
-		2B76BC591A67BA760038CCEE /* SLIconSms@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC2F1A67BA760038CCEE /* SLIconSms@2x.png */; };
-		2B76BC5A1A67BA760038CCEE /* SLIconTwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC301A67BA760038CCEE /* SLIconTwitter.png */; };
-		2B76BC5B1A67BA760038CCEE /* SLIconTwitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC311A67BA760038CCEE /* SLIconTwitter@2x.png */; };
-		2B76BC5C1A67BA760038CCEE /* SLPlayerControllerPause.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC321A67BA760038CCEE /* SLPlayerControllerPause.png */; };
-		2B76BC5D1A67BA760038CCEE /* SLPlayerControllerPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC331A67BA760038CCEE /* SLPlayerControllerPause@2x.png */; };
-		2B76BC5E1A67BA760038CCEE /* SLPlayerControllerPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC341A67BA760038CCEE /* SLPlayerControllerPlay.png */; };
-		2B76BC5F1A67BA760038CCEE /* SLPlayerControllerPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC351A67BA760038CCEE /* SLPlayerControllerPlay@2x.png */; };
-		2B76BC601A67BA760038CCEE /* SLPlayerControllerVolumeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC361A67BA760038CCEE /* SLPlayerControllerVolumeOn.png */; };
-		2B76BC611A67BA760038CCEE /* SLPlayerControllerVolumeOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC371A67BA760038CCEE /* SLPlayerControllerVolumeOn@2x.png */; };
-		2B76BC621A67BA760038CCEE /* SLPlayerFullscreenToggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC381A67BA760038CCEE /* SLPlayerFullscreenToggle.png */; };
-		2B76BC631A67BA760038CCEE /* SLPlayerFullscreenToggle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC391A67BA760038CCEE /* SLPlayerFullscreenToggle@2x.png */; };
-		2B76BC641A67BA760038CCEE /* SLPlayerProgressThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC3A1A67BA760038CCEE /* SLPlayerProgressThumb.png */; };
-		2B76BC651A67BA760038CCEE /* SLPlayerProgressThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC3B1A67BA760038CCEE /* SLPlayerProgressThumb@2x.png */; };
-		2B76BC661A67BA760038CCEE /* SLStarEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC3C1A67BA760038CCEE /* SLStarEmpty.png */; };
-		2B76BC671A67BA760038CCEE /* SLStarEmpty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC3D1A67BA760038CCEE /* SLStarEmpty@2x.png */; };
-		2B76BC681A67BA760038CCEE /* SLStarFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC3E1A67BA760038CCEE /* SLStarFull.png */; };
-		2B76BC691A67BA760038CCEE /* SLStarFull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC3F1A67BA760038CCEE /* SLStarFull@2x.png */; };
-		2B76BC6A1A67BA760038CCEE /* SLStarHalf.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC401A67BA760038CCEE /* SLStarHalf.png */; };
-		2B76BC6B1A67BA760038CCEE /* SLStarHalf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC411A67BA760038CCEE /* SLStarHalf@2x.png */; };
-		2B76BC6C1A67BA760038CCEE /* Seamless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76BC421A67BA760038CCEE /* Seamless.framework */; };
 		2B76BC6E1A67BB910038CCEE /* ford.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC6D1A67BB830038CCEE /* ford.mp4 */; };
 		2B76BC721A67BEAA0038CCEE /* video_thumbnail.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC711A67BEAA0038CCEE /* video_thumbnail.PNG */; };
 		2B76BC761A67BF060038CCEE /* SDVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B76BC741A67BF060038CCEE /* SDVideoViewController.m */; };
 		2B76BC771A67BF060038CCEE /* SDVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC751A67BF060038CCEE /* SDVideoViewController.xib */; };
+		2B76BCA41A67D05E0038CCEE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC7A1A67D05E0038CCEE /* LICENSE */; };
+		2B76BCA51A67D05E0038CCEE /* MPAdBrowserController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC7B1A67D05E0038CCEE /* MPAdBrowserController.nib */; };
+		2B76BCA61A67D05E0038CCEE /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC7C1A67D05E0038CCEE /* MPCloseButtonX.png */; };
+		2B76BCA71A67D05E0038CCEE /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC7D1A67D05E0038CCEE /* MPCloseButtonX@2x.png */; };
+		2B76BCA81A67D05E0038CCEE /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC7E1A67D05E0038CCEE /* MRAID.bundle */; };
+		2B76BCA91A67D05E0038CCEE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2B76BC7F1A67D05E0038CCEE /* README.md */; };
+		2B76BCAA1A67D05E0038CCEE /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC801A67D05E0038CCEE /* README.txt */; };
+		2B76BCAB1A67D05E0038CCEE /* SLButtonPattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC811A67D05E0038CCEE /* SLButtonPattern.png */; };
+		2B76BCAC1A67D05E0038CCEE /* SLButtonPattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC821A67D05E0038CCEE /* SLButtonPattern@2x.png */; };
+		2B76BCAD1A67D05E0038CCEE /* SLIconClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC831A67D05E0038CCEE /* SLIconClose.png */; };
+		2B76BCAE1A67D05E0038CCEE /* SLIconClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC841A67D05E0038CCEE /* SLIconClose@2x.png */; };
+		2B76BCAF1A67D05E0038CCEE /* SLIconExpand.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC851A67D05E0038CCEE /* SLIconExpand.png */; };
+		2B76BCB01A67D05E0038CCEE /* SLIconExpand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC861A67D05E0038CCEE /* SLIconExpand@2x.png */; };
+		2B76BCB11A67D05E0038CCEE /* SLIconFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC871A67D05E0038CCEE /* SLIconFacebook.png */; };
+		2B76BCB21A67D05E0038CCEE /* SLIconFacebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC881A67D05E0038CCEE /* SLIconFacebook@2x.png */; };
+		2B76BCB31A67D05E0038CCEE /* SLIconLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC891A67D05E0038CCEE /* SLIconLocation.png */; };
+		2B76BCB41A67D05E0038CCEE /* SLIconLocation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC8A1A67D05E0038CCEE /* SLIconLocation@2x.png */; };
+		2B76BCB51A67D05E0038CCEE /* SLIconMail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC8B1A67D05E0038CCEE /* SLIconMail.png */; };
+		2B76BCB61A67D05E0038CCEE /* SLIconMail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC8C1A67D05E0038CCEE /* SLIconMail@2x.png */; };
+		2B76BCB71A67D05E0038CCEE /* SLIconShrink.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC8D1A67D05E0038CCEE /* SLIconShrink.png */; };
+		2B76BCB81A67D05E0038CCEE /* SLIconShrink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC8E1A67D05E0038CCEE /* SLIconShrink@2x.png */; };
+		2B76BCB91A67D05E0038CCEE /* SLIconSms.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC8F1A67D05E0038CCEE /* SLIconSms.png */; };
+		2B76BCBA1A67D05E0038CCEE /* SLIconSms@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC901A67D05E0038CCEE /* SLIconSms@2x.png */; };
+		2B76BCBB1A67D05E0038CCEE /* SLIconTwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC911A67D05E0038CCEE /* SLIconTwitter.png */; };
+		2B76BCBC1A67D05E0038CCEE /* SLIconTwitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC921A67D05E0038CCEE /* SLIconTwitter@2x.png */; };
+		2B76BCBD1A67D05E0038CCEE /* SLPlayerControllerPause.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC931A67D05E0038CCEE /* SLPlayerControllerPause.png */; };
+		2B76BCBE1A67D05E0038CCEE /* SLPlayerControllerPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC941A67D05E0038CCEE /* SLPlayerControllerPause@2x.png */; };
+		2B76BCBF1A67D05E0038CCEE /* SLPlayerControllerPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC951A67D05E0038CCEE /* SLPlayerControllerPlay.png */; };
+		2B76BCC01A67D05E0038CCEE /* SLPlayerControllerPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC961A67D05E0038CCEE /* SLPlayerControllerPlay@2x.png */; };
+		2B76BCC11A67D05E0038CCEE /* SLPlayerControllerVolumeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC971A67D05E0038CCEE /* SLPlayerControllerVolumeOn.png */; };
+		2B76BCC21A67D05E0038CCEE /* SLPlayerControllerVolumeOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC981A67D05E0038CCEE /* SLPlayerControllerVolumeOn@2x.png */; };
+		2B76BCC31A67D05E0038CCEE /* SLPlayerFullscreenToggle.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC991A67D05E0038CCEE /* SLPlayerFullscreenToggle.png */; };
+		2B76BCC41A67D05E0038CCEE /* SLPlayerFullscreenToggle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC9A1A67D05E0038CCEE /* SLPlayerFullscreenToggle@2x.png */; };
+		2B76BCC51A67D05E0038CCEE /* SLPlayerProgressThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC9B1A67D05E0038CCEE /* SLPlayerProgressThumb.png */; };
+		2B76BCC61A67D05E0038CCEE /* SLPlayerProgressThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC9C1A67D05E0038CCEE /* SLPlayerProgressThumb@2x.png */; };
+		2B76BCC71A67D05E0038CCEE /* SLStarEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC9D1A67D05E0038CCEE /* SLStarEmpty.png */; };
+		2B76BCC81A67D05E0038CCEE /* SLStarEmpty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC9E1A67D05E0038CCEE /* SLStarEmpty@2x.png */; };
+		2B76BCC91A67D05E0038CCEE /* SLStarFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BC9F1A67D05E0038CCEE /* SLStarFull.png */; };
+		2B76BCCA1A67D05E0038CCEE /* SLStarFull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BCA01A67D05E0038CCEE /* SLStarFull@2x.png */; };
+		2B76BCCB1A67D05E0038CCEE /* SLStarHalf.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BCA11A67D05E0038CCEE /* SLStarHalf.png */; };
+		2B76BCCC1A67D05E0038CCEE /* SLStarHalf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B76BCA21A67D05E0038CCEE /* SLStarHalf@2x.png */; };
+		2B76BCCD1A67D05E0038CCEE /* Seamless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B76BCA31A67D05E0038CCEE /* Seamless.framework */; };
 		2B7706761A14EBA500EE7DF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7706751A14EBA500EE7DF4 /* main.m */; };
 		2B7706791A14EBA500EE7DF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7706781A14EBA500EE7DF4 /* AppDelegate.m */; };
 		2B7706811A14EBA500EE7DF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7706801A14EBA500EE7DF4 /* Images.xcassets */; };
@@ -91,53 +91,53 @@
 		2B5F223B1A2DC29300FD3A12 /* SDBannerAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBannerAutoLayoutViewController.h; sourceTree = "<group>"; };
 		2B5F223C1A2DC29300FD3A12 /* SDBannerAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBannerAutoLayoutViewController.m; sourceTree = "<group>"; };
 		2B5F223D1A2DC29300FD3A12 /* SDBannerAutoLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDBannerAutoLayoutViewController.xib; sourceTree = "<group>"; };
-		2B76BC191A67BA760038CCEE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2B76BC1A1A67BA760038CCEE /* MPAdBrowserController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = MPAdBrowserController.nib; sourceTree = "<group>"; };
-		2B76BC1B1A67BA760038CCEE /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
-		2B76BC1C1A67BA760038CCEE /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
-		2B76BC1D1A67BA760038CCEE /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
-		2B76BC1E1A67BA760038CCEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2B76BC1F1A67BA760038CCEE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		2B76BC201A67BA760038CCEE /* SLButtonPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLButtonPattern.png; sourceTree = "<group>"; };
-		2B76BC211A67BA760038CCEE /* SLButtonPattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLButtonPattern@2x.png"; sourceTree = "<group>"; };
-		2B76BC221A67BA760038CCEE /* SLIconClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconClose.png; sourceTree = "<group>"; };
-		2B76BC231A67BA760038CCEE /* SLIconClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconClose@2x.png"; sourceTree = "<group>"; };
-		2B76BC241A67BA760038CCEE /* SLIconExpand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconExpand.png; sourceTree = "<group>"; };
-		2B76BC251A67BA760038CCEE /* SLIconExpand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconExpand@2x.png"; sourceTree = "<group>"; };
-		2B76BC261A67BA760038CCEE /* SLIconFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconFacebook.png; sourceTree = "<group>"; };
-		2B76BC271A67BA760038CCEE /* SLIconFacebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconFacebook@2x.png"; sourceTree = "<group>"; };
-		2B76BC281A67BA760038CCEE /* SLIconLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconLocation.png; sourceTree = "<group>"; };
-		2B76BC291A67BA760038CCEE /* SLIconLocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconLocation@2x.png"; sourceTree = "<group>"; };
-		2B76BC2A1A67BA760038CCEE /* SLIconMail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconMail.png; sourceTree = "<group>"; };
-		2B76BC2B1A67BA760038CCEE /* SLIconMail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconMail@2x.png"; sourceTree = "<group>"; };
-		2B76BC2C1A67BA760038CCEE /* SLIconShrink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconShrink.png; sourceTree = "<group>"; };
-		2B76BC2D1A67BA760038CCEE /* SLIconShrink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconShrink@2x.png"; sourceTree = "<group>"; };
-		2B76BC2E1A67BA760038CCEE /* SLIconSms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconSms.png; sourceTree = "<group>"; };
-		2B76BC2F1A67BA760038CCEE /* SLIconSms@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconSms@2x.png"; sourceTree = "<group>"; };
-		2B76BC301A67BA760038CCEE /* SLIconTwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconTwitter.png; sourceTree = "<group>"; };
-		2B76BC311A67BA760038CCEE /* SLIconTwitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconTwitter@2x.png"; sourceTree = "<group>"; };
-		2B76BC321A67BA760038CCEE /* SLPlayerControllerPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerControllerPause.png; sourceTree = "<group>"; };
-		2B76BC331A67BA760038CCEE /* SLPlayerControllerPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerControllerPause@2x.png"; sourceTree = "<group>"; };
-		2B76BC341A67BA760038CCEE /* SLPlayerControllerPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerControllerPlay.png; sourceTree = "<group>"; };
-		2B76BC351A67BA760038CCEE /* SLPlayerControllerPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerControllerPlay@2x.png"; sourceTree = "<group>"; };
-		2B76BC361A67BA760038CCEE /* SLPlayerControllerVolumeOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerControllerVolumeOn.png; sourceTree = "<group>"; };
-		2B76BC371A67BA760038CCEE /* SLPlayerControllerVolumeOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerControllerVolumeOn@2x.png"; sourceTree = "<group>"; };
-		2B76BC381A67BA760038CCEE /* SLPlayerFullscreenToggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerFullscreenToggle.png; sourceTree = "<group>"; };
-		2B76BC391A67BA760038CCEE /* SLPlayerFullscreenToggle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerFullscreenToggle@2x.png"; sourceTree = "<group>"; };
-		2B76BC3A1A67BA760038CCEE /* SLPlayerProgressThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerProgressThumb.png; sourceTree = "<group>"; };
-		2B76BC3B1A67BA760038CCEE /* SLPlayerProgressThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerProgressThumb@2x.png"; sourceTree = "<group>"; };
-		2B76BC3C1A67BA760038CCEE /* SLStarEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLStarEmpty.png; sourceTree = "<group>"; };
-		2B76BC3D1A67BA760038CCEE /* SLStarEmpty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLStarEmpty@2x.png"; sourceTree = "<group>"; };
-		2B76BC3E1A67BA760038CCEE /* SLStarFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLStarFull.png; sourceTree = "<group>"; };
-		2B76BC3F1A67BA760038CCEE /* SLStarFull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLStarFull@2x.png"; sourceTree = "<group>"; };
-		2B76BC401A67BA760038CCEE /* SLStarHalf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLStarHalf.png; sourceTree = "<group>"; };
-		2B76BC411A67BA760038CCEE /* SLStarHalf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLStarHalf@2x.png"; sourceTree = "<group>"; };
-		2B76BC421A67BA760038CCEE /* Seamless.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Seamless.framework; sourceTree = "<group>"; };
 		2B76BC6D1A67BB830038CCEE /* ford.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ford.mp4; sourceTree = "<group>"; };
 		2B76BC711A67BEAA0038CCEE /* video_thumbnail.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_thumbnail.PNG; sourceTree = "<group>"; };
 		2B76BC731A67BF060038CCEE /* SDVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDVideoViewController.h; sourceTree = "<group>"; };
 		2B76BC741A67BF060038CCEE /* SDVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDVideoViewController.m; sourceTree = "<group>"; };
 		2B76BC751A67BF060038CCEE /* SDVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDVideoViewController.xib; sourceTree = "<group>"; };
+		2B76BC7A1A67D05E0038CCEE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2B76BC7B1A67D05E0038CCEE /* MPAdBrowserController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = MPAdBrowserController.nib; sourceTree = "<group>"; };
+		2B76BC7C1A67D05E0038CCEE /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
+		2B76BC7D1A67D05E0038CCEE /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		2B76BC7E1A67D05E0038CCEE /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		2B76BC7F1A67D05E0038CCEE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2B76BC801A67D05E0038CCEE /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		2B76BC811A67D05E0038CCEE /* SLButtonPattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLButtonPattern.png; sourceTree = "<group>"; };
+		2B76BC821A67D05E0038CCEE /* SLButtonPattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLButtonPattern@2x.png"; sourceTree = "<group>"; };
+		2B76BC831A67D05E0038CCEE /* SLIconClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconClose.png; sourceTree = "<group>"; };
+		2B76BC841A67D05E0038CCEE /* SLIconClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconClose@2x.png"; sourceTree = "<group>"; };
+		2B76BC851A67D05E0038CCEE /* SLIconExpand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconExpand.png; sourceTree = "<group>"; };
+		2B76BC861A67D05E0038CCEE /* SLIconExpand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconExpand@2x.png"; sourceTree = "<group>"; };
+		2B76BC871A67D05E0038CCEE /* SLIconFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconFacebook.png; sourceTree = "<group>"; };
+		2B76BC881A67D05E0038CCEE /* SLIconFacebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconFacebook@2x.png"; sourceTree = "<group>"; };
+		2B76BC891A67D05E0038CCEE /* SLIconLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconLocation.png; sourceTree = "<group>"; };
+		2B76BC8A1A67D05E0038CCEE /* SLIconLocation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconLocation@2x.png"; sourceTree = "<group>"; };
+		2B76BC8B1A67D05E0038CCEE /* SLIconMail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconMail.png; sourceTree = "<group>"; };
+		2B76BC8C1A67D05E0038CCEE /* SLIconMail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconMail@2x.png"; sourceTree = "<group>"; };
+		2B76BC8D1A67D05E0038CCEE /* SLIconShrink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconShrink.png; sourceTree = "<group>"; };
+		2B76BC8E1A67D05E0038CCEE /* SLIconShrink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconShrink@2x.png"; sourceTree = "<group>"; };
+		2B76BC8F1A67D05E0038CCEE /* SLIconSms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconSms.png; sourceTree = "<group>"; };
+		2B76BC901A67D05E0038CCEE /* SLIconSms@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconSms@2x.png"; sourceTree = "<group>"; };
+		2B76BC911A67D05E0038CCEE /* SLIconTwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLIconTwitter.png; sourceTree = "<group>"; };
+		2B76BC921A67D05E0038CCEE /* SLIconTwitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLIconTwitter@2x.png"; sourceTree = "<group>"; };
+		2B76BC931A67D05E0038CCEE /* SLPlayerControllerPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerControllerPause.png; sourceTree = "<group>"; };
+		2B76BC941A67D05E0038CCEE /* SLPlayerControllerPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerControllerPause@2x.png"; sourceTree = "<group>"; };
+		2B76BC951A67D05E0038CCEE /* SLPlayerControllerPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerControllerPlay.png; sourceTree = "<group>"; };
+		2B76BC961A67D05E0038CCEE /* SLPlayerControllerPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerControllerPlay@2x.png"; sourceTree = "<group>"; };
+		2B76BC971A67D05E0038CCEE /* SLPlayerControllerVolumeOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerControllerVolumeOn.png; sourceTree = "<group>"; };
+		2B76BC981A67D05E0038CCEE /* SLPlayerControllerVolumeOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerControllerVolumeOn@2x.png"; sourceTree = "<group>"; };
+		2B76BC991A67D05E0038CCEE /* SLPlayerFullscreenToggle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerFullscreenToggle.png; sourceTree = "<group>"; };
+		2B76BC9A1A67D05E0038CCEE /* SLPlayerFullscreenToggle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerFullscreenToggle@2x.png"; sourceTree = "<group>"; };
+		2B76BC9B1A67D05E0038CCEE /* SLPlayerProgressThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLPlayerProgressThumb.png; sourceTree = "<group>"; };
+		2B76BC9C1A67D05E0038CCEE /* SLPlayerProgressThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLPlayerProgressThumb@2x.png"; sourceTree = "<group>"; };
+		2B76BC9D1A67D05E0038CCEE /* SLStarEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLStarEmpty.png; sourceTree = "<group>"; };
+		2B76BC9E1A67D05E0038CCEE /* SLStarEmpty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLStarEmpty@2x.png"; sourceTree = "<group>"; };
+		2B76BC9F1A67D05E0038CCEE /* SLStarFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLStarFull.png; sourceTree = "<group>"; };
+		2B76BCA01A67D05E0038CCEE /* SLStarFull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLStarFull@2x.png"; sourceTree = "<group>"; };
+		2B76BCA11A67D05E0038CCEE /* SLStarHalf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLStarHalf.png; sourceTree = "<group>"; };
+		2B76BCA21A67D05E0038CCEE /* SLStarHalf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLStarHalf@2x.png"; sourceTree = "<group>"; };
+		2B76BCA31A67D05E0038CCEE /* Seamless.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Seamless.framework; sourceTree = "<group>"; };
 		2B7706701A14EBA500EE7DF4 /* SeamlessDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeamlessDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7706741A14EBA500EE7DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B7706751A14EBA500EE7DF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B20E9DF7A8A6C82FC32E6806 /* libPods.a in Frameworks */,
-				2B76BC6C1A67BA760038CCEE /* Seamless.framework in Frameworks */,
+				2B76BCCD1A67D05E0038CCEE /* Seamless.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,59 +204,59 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2B76BC171A67BA760038CCEE /* Seamless.embeddedframework */ = {
+		2B76BC781A67D05E0038CCEE /* Seamless.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				2B76BC181A67BA760038CCEE /* Resources */,
-				2B76BC421A67BA760038CCEE /* Seamless.framework */,
+				2B76BC791A67D05E0038CCEE /* Resources */,
+				2B76BCA31A67D05E0038CCEE /* Seamless.framework */,
 			);
 			path = Seamless.embeddedframework;
 			sourceTree = "<group>";
 		};
-		2B76BC181A67BA760038CCEE /* Resources */ = {
+		2B76BC791A67D05E0038CCEE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2B76BC191A67BA760038CCEE /* LICENSE */,
-				2B76BC1A1A67BA760038CCEE /* MPAdBrowserController.nib */,
-				2B76BC1B1A67BA760038CCEE /* MPCloseButtonX.png */,
-				2B76BC1C1A67BA760038CCEE /* MPCloseButtonX@2x.png */,
-				2B76BC1D1A67BA760038CCEE /* MRAID.bundle */,
-				2B76BC1E1A67BA760038CCEE /* README.md */,
-				2B76BC1F1A67BA760038CCEE /* README.txt */,
-				2B76BC201A67BA760038CCEE /* SLButtonPattern.png */,
-				2B76BC211A67BA760038CCEE /* SLButtonPattern@2x.png */,
-				2B76BC221A67BA760038CCEE /* SLIconClose.png */,
-				2B76BC231A67BA760038CCEE /* SLIconClose@2x.png */,
-				2B76BC241A67BA760038CCEE /* SLIconExpand.png */,
-				2B76BC251A67BA760038CCEE /* SLIconExpand@2x.png */,
-				2B76BC261A67BA760038CCEE /* SLIconFacebook.png */,
-				2B76BC271A67BA760038CCEE /* SLIconFacebook@2x.png */,
-				2B76BC281A67BA760038CCEE /* SLIconLocation.png */,
-				2B76BC291A67BA760038CCEE /* SLIconLocation@2x.png */,
-				2B76BC2A1A67BA760038CCEE /* SLIconMail.png */,
-				2B76BC2B1A67BA760038CCEE /* SLIconMail@2x.png */,
-				2B76BC2C1A67BA760038CCEE /* SLIconShrink.png */,
-				2B76BC2D1A67BA760038CCEE /* SLIconShrink@2x.png */,
-				2B76BC2E1A67BA760038CCEE /* SLIconSms.png */,
-				2B76BC2F1A67BA760038CCEE /* SLIconSms@2x.png */,
-				2B76BC301A67BA760038CCEE /* SLIconTwitter.png */,
-				2B76BC311A67BA760038CCEE /* SLIconTwitter@2x.png */,
-				2B76BC321A67BA760038CCEE /* SLPlayerControllerPause.png */,
-				2B76BC331A67BA760038CCEE /* SLPlayerControllerPause@2x.png */,
-				2B76BC341A67BA760038CCEE /* SLPlayerControllerPlay.png */,
-				2B76BC351A67BA760038CCEE /* SLPlayerControllerPlay@2x.png */,
-				2B76BC361A67BA760038CCEE /* SLPlayerControllerVolumeOn.png */,
-				2B76BC371A67BA760038CCEE /* SLPlayerControllerVolumeOn@2x.png */,
-				2B76BC381A67BA760038CCEE /* SLPlayerFullscreenToggle.png */,
-				2B76BC391A67BA760038CCEE /* SLPlayerFullscreenToggle@2x.png */,
-				2B76BC3A1A67BA760038CCEE /* SLPlayerProgressThumb.png */,
-				2B76BC3B1A67BA760038CCEE /* SLPlayerProgressThumb@2x.png */,
-				2B76BC3C1A67BA760038CCEE /* SLStarEmpty.png */,
-				2B76BC3D1A67BA760038CCEE /* SLStarEmpty@2x.png */,
-				2B76BC3E1A67BA760038CCEE /* SLStarFull.png */,
-				2B76BC3F1A67BA760038CCEE /* SLStarFull@2x.png */,
-				2B76BC401A67BA760038CCEE /* SLStarHalf.png */,
-				2B76BC411A67BA760038CCEE /* SLStarHalf@2x.png */,
+				2B76BC7A1A67D05E0038CCEE /* LICENSE */,
+				2B76BC7B1A67D05E0038CCEE /* MPAdBrowserController.nib */,
+				2B76BC7C1A67D05E0038CCEE /* MPCloseButtonX.png */,
+				2B76BC7D1A67D05E0038CCEE /* MPCloseButtonX@2x.png */,
+				2B76BC7E1A67D05E0038CCEE /* MRAID.bundle */,
+				2B76BC7F1A67D05E0038CCEE /* README.md */,
+				2B76BC801A67D05E0038CCEE /* README.txt */,
+				2B76BC811A67D05E0038CCEE /* SLButtonPattern.png */,
+				2B76BC821A67D05E0038CCEE /* SLButtonPattern@2x.png */,
+				2B76BC831A67D05E0038CCEE /* SLIconClose.png */,
+				2B76BC841A67D05E0038CCEE /* SLIconClose@2x.png */,
+				2B76BC851A67D05E0038CCEE /* SLIconExpand.png */,
+				2B76BC861A67D05E0038CCEE /* SLIconExpand@2x.png */,
+				2B76BC871A67D05E0038CCEE /* SLIconFacebook.png */,
+				2B76BC881A67D05E0038CCEE /* SLIconFacebook@2x.png */,
+				2B76BC891A67D05E0038CCEE /* SLIconLocation.png */,
+				2B76BC8A1A67D05E0038CCEE /* SLIconLocation@2x.png */,
+				2B76BC8B1A67D05E0038CCEE /* SLIconMail.png */,
+				2B76BC8C1A67D05E0038CCEE /* SLIconMail@2x.png */,
+				2B76BC8D1A67D05E0038CCEE /* SLIconShrink.png */,
+				2B76BC8E1A67D05E0038CCEE /* SLIconShrink@2x.png */,
+				2B76BC8F1A67D05E0038CCEE /* SLIconSms.png */,
+				2B76BC901A67D05E0038CCEE /* SLIconSms@2x.png */,
+				2B76BC911A67D05E0038CCEE /* SLIconTwitter.png */,
+				2B76BC921A67D05E0038CCEE /* SLIconTwitter@2x.png */,
+				2B76BC931A67D05E0038CCEE /* SLPlayerControllerPause.png */,
+				2B76BC941A67D05E0038CCEE /* SLPlayerControllerPause@2x.png */,
+				2B76BC951A67D05E0038CCEE /* SLPlayerControllerPlay.png */,
+				2B76BC961A67D05E0038CCEE /* SLPlayerControllerPlay@2x.png */,
+				2B76BC971A67D05E0038CCEE /* SLPlayerControllerVolumeOn.png */,
+				2B76BC981A67D05E0038CCEE /* SLPlayerControllerVolumeOn@2x.png */,
+				2B76BC991A67D05E0038CCEE /* SLPlayerFullscreenToggle.png */,
+				2B76BC9A1A67D05E0038CCEE /* SLPlayerFullscreenToggle@2x.png */,
+				2B76BC9B1A67D05E0038CCEE /* SLPlayerProgressThumb.png */,
+				2B76BC9C1A67D05E0038CCEE /* SLPlayerProgressThumb@2x.png */,
+				2B76BC9D1A67D05E0038CCEE /* SLStarEmpty.png */,
+				2B76BC9E1A67D05E0038CCEE /* SLStarEmpty@2x.png */,
+				2B76BC9F1A67D05E0038CCEE /* SLStarFull.png */,
+				2B76BCA01A67D05E0038CCEE /* SLStarFull@2x.png */,
+				2B76BCA11A67D05E0038CCEE /* SLStarHalf.png */,
+				2B76BCA21A67D05E0038CCEE /* SLStarHalf@2x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -352,7 +352,7 @@
 		2B77069E1A14EC3000EE7DF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2B76BC171A67BA760038CCEE /* Seamless.embeddedframework */,
+				2B76BC781A67D05E0038CCEE /* Seamless.embeddedframework */,
 				34E38A2375EB8F5EC0D6DEAC /* libPods.a */,
 			);
 			name = Frameworks;
@@ -440,59 +440,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B76BCC21A67D05E0038CCEE /* SLPlayerControllerVolumeOn@2x.png in Resources */,
+				2B76BCC01A67D05E0038CCEE /* SLPlayerControllerPlay@2x.png in Resources */,
+				2B76BCAC1A67D05E0038CCEE /* SLButtonPattern@2x.png in Resources */,
+				2B76BCB91A67D05E0038CCEE /* SLIconSms.png in Resources */,
 				2B76BC771A67BF060038CCEE /* SDVideoViewController.xib in Resources */,
+				2B76BCC11A67D05E0038CCEE /* SLPlayerControllerVolumeOn.png in Resources */,
+				2B76BCC41A67D05E0038CCEE /* SLPlayerFullscreenToggle@2x.png in Resources */,
 				2B76BC6E1A67BB910038CCEE /* ford.mp4 in Resources */,
-				2B76BC5F1A67BA760038CCEE /* SLPlayerControllerPlay@2x.png in Resources */,
-				2B76BC4F1A67BA760038CCEE /* SLIconExpand@2x.png in Resources */,
-				2B76BC661A67BA760038CCEE /* SLStarEmpty.png in Resources */,
-				2B76BC4B1A67BA760038CCEE /* SLButtonPattern@2x.png in Resources */,
-				2B76BC631A67BA760038CCEE /* SLPlayerFullscreenToggle@2x.png in Resources */,
-				2B76BC581A67BA760038CCEE /* SLIconSms.png in Resources */,
-				2B76BC5E1A67BA760038CCEE /* SLPlayerControllerPlay.png in Resources */,
+				2B76BCBC1A67D05E0038CCEE /* SLIconTwitter@2x.png in Resources */,
+				2B76BCCC1A67D05E0038CCEE /* SLStarHalf@2x.png in Resources */,
 				2B5F223F1A2DC29300FD3A12 /* SDBannerAutoLayoutViewController.xib in Resources */,
-				2B76BC5A1A67BA760038CCEE /* SLIconTwitter.png in Resources */,
-				2B76BC671A67BA760038CCEE /* SLStarEmpty@2x.png in Resources */,
-				2B76BC521A67BA760038CCEE /* SLIconLocation.png in Resources */,
+				2B76BCAB1A67D05E0038CCEE /* SLButtonPattern.png in Resources */,
+				2B76BCB61A67D05E0038CCEE /* SLIconMail@2x.png in Resources */,
+				2B76BCBD1A67D05E0038CCEE /* SLPlayerControllerPause.png in Resources */,
 				2B76BC721A67BEAA0038CCEE /* video_thumbnail.PNG in Resources */,
-				2B76BC5C1A67BA760038CCEE /* SLPlayerControllerPause.png in Resources */,
-				2B76BC651A67BA760038CCEE /* SLPlayerProgressThumb@2x.png in Resources */,
-				2B76BC501A67BA760038CCEE /* SLIconFacebook.png in Resources */,
-				2B76BC511A67BA760038CCEE /* SLIconFacebook@2x.png in Resources */,
+				2B76BCAE1A67D05E0038CCEE /* SLIconClose@2x.png in Resources */,
 				2BC700A11A2CA85F0031D568 /* SDMreViewController.xib in Resources */,
-				2B76BC6B1A67BA760038CCEE /* SLStarHalf@2x.png in Resources */,
-				2B76BC591A67BA760038CCEE /* SLIconSms@2x.png in Resources */,
 				2B7706841A14EBA500EE7DF4 /* LaunchScreen.xib in Resources */,
+				2B76BCC91A67D05E0038CCEE /* SLStarFull.png in Resources */,
+				2B76BCA71A67D05E0038CCEE /* MPCloseButtonX@2x.png in Resources */,
+				2B76BCB31A67D05E0038CCEE /* SLIconLocation.png in Resources */,
+				2B76BCB01A67D05E0038CCEE /* SLIconExpand@2x.png in Resources */,
+				2B76BCB51A67D05E0038CCEE /* SLIconMail.png in Resources */,
 				2B77069D1A14EBF200EE7DF4 /* SDMainViewController.xib in Resources */,
-				2B76BC531A67BA760038CCEE /* SLIconLocation@2x.png in Resources */,
-				2B76BC4E1A67BA760038CCEE /* SLIconExpand.png in Resources */,
-				2B76BC571A67BA760038CCEE /* SLIconShrink@2x.png in Resources */,
-				2B76BC641A67BA760038CCEE /* SLPlayerProgressThumb.png in Resources */,
-				2B76BC4D1A67BA760038CCEE /* SLIconClose@2x.png in Resources */,
+				2B76BCAF1A67D05E0038CCEE /* SLIconExpand.png in Resources */,
 				2BC7009C1A2CA82B0031D568 /* SDResizeForBannerViewController.xib in Resources */,
-				2B76BC431A67BA760038CCEE /* LICENSE in Resources */,
-				2B76BC691A67BA760038CCEE /* SLStarFull@2x.png in Resources */,
-				2B76BC491A67BA760038CCEE /* README.txt in Resources */,
-				2B76BC471A67BA760038CCEE /* MRAID.bundle in Resources */,
-				2B76BC681A67BA760038CCEE /* SLStarFull.png in Resources */,
-				2B76BC451A67BA760038CCEE /* MPCloseButtonX.png in Resources */,
 				2BD8D7CE1A2C9E5700B559C3 /* SDTableViewController.xib in Resources */,
-				2B76BC611A67BA760038CCEE /* SLPlayerControllerVolumeOn@2x.png in Resources */,
-				2B76BC621A67BA760038CCEE /* SLPlayerFullscreenToggle.png in Resources */,
+				2B76BCB11A67D05E0038CCEE /* SLIconFacebook.png in Resources */,
+				2B76BCC71A67D05E0038CCEE /* SLStarEmpty.png in Resources */,
 				2B7707001A15176900EE7DF4 /* SDFloatingViewController.xib in Resources */,
-				2B76BC461A67BA760038CCEE /* MPCloseButtonX@2x.png in Resources */,
-				2B76BC4C1A67BA760038CCEE /* SLIconClose.png in Resources */,
-				2B76BC551A67BA760038CCEE /* SLIconMail@2x.png in Resources */,
-				2B76BC541A67BA760038CCEE /* SLIconMail.png in Resources */,
-				2B76BC4A1A67BA760038CCEE /* SLButtonPattern.png in Resources */,
-				2B76BC5D1A67BA760038CCEE /* SLPlayerControllerPause@2x.png in Resources */,
+				2B76BCC51A67D05E0038CCEE /* SLPlayerProgressThumb.png in Resources */,
+				2B76BCA41A67D05E0038CCEE /* LICENSE in Resources */,
+				2B76BCAD1A67D05E0038CCEE /* SLIconClose.png in Resources */,
+				2B76BCC31A67D05E0038CCEE /* SLPlayerFullscreenToggle.png in Resources */,
+				2B76BCC81A67D05E0038CCEE /* SLStarEmpty@2x.png in Resources */,
 				2B840D211A2C7FAE00D4ECF4 /* SDBannerViewController.xib in Resources */,
-				2B76BC6A1A67BA760038CCEE /* SLStarHalf.png in Resources */,
-				2B76BC561A67BA760038CCEE /* SLIconShrink.png in Resources */,
+				2B76BCB81A67D05E0038CCEE /* SLIconShrink@2x.png in Resources */,
+				2B76BCB41A67D05E0038CCEE /* SLIconLocation@2x.png in Resources */,
+				2B76BCA61A67D05E0038CCEE /* MPCloseButtonX.png in Resources */,
+				2B76BCBE1A67D05E0038CCEE /* SLPlayerControllerPause@2x.png in Resources */,
 				2B7706FB1A14FB6800EE7DF4 /* SDFeedViewController.xib in Resources */,
-				2B76BC441A67BA760038CCEE /* MPAdBrowserController.nib in Resources */,
-				2B76BC5B1A67BA760038CCEE /* SLIconTwitter@2x.png in Resources */,
-				2B76BC601A67BA760038CCEE /* SLPlayerControllerVolumeOn.png in Resources */,
+				2B76BCBA1A67D05E0038CCEE /* SLIconSms@2x.png in Resources */,
+				2B76BCCA1A67D05E0038CCEE /* SLStarFull@2x.png in Resources */,
+				2B76BCB71A67D05E0038CCEE /* SLIconShrink.png in Resources */,
+				2B76BCA81A67D05E0038CCEE /* MRAID.bundle in Resources */,
+				2B76BCBB1A67D05E0038CCEE /* SLIconTwitter.png in Resources */,
+				2B76BCCB1A67D05E0038CCEE /* SLStarHalf.png in Resources */,
+				2B76BCBF1A67D05E0038CCEE /* SLPlayerControllerPlay.png in Resources */,
+				2B76BCAA1A67D05E0038CCEE /* README.txt in Resources */,
+				2B76BCA51A67D05E0038CCEE /* MPAdBrowserController.nib in Resources */,
+				2B76BCB21A67D05E0038CCEE /* SLIconFacebook@2x.png in Resources */,
 				2B7706811A14EBA500EE7DF4 /* Images.xcassets in Resources */,
+				2B76BCC61A67D05E0038CCEE /* SLPlayerProgressThumb@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,11 +549,11 @@
 				2B77069C1A14EBF200EE7DF4 /* SDMainViewController.m in Sources */,
 				2B7706FF1A15176900EE7DF4 /* SDFloatingViewController.m in Sources */,
 				2B7706791A14EBA500EE7DF4 /* AppDelegate.m in Sources */,
+				2B76BCA91A67D05E0038CCEE /* README.md in Sources */,
 				2B7706FA1A14FB6800EE7DF4 /* SDFeedViewController.m in Sources */,
 				2B76BC761A67BF060038CCEE /* SDVideoViewController.m in Sources */,
 				2B840D1B1A2C72B900D4ECF4 /* SDTableViewController.m in Sources */,
 				2B7706761A14EBA500EE7DF4 /* main.m in Sources */,
-				2B76BC481A67BA760038CCEE /* README.md in Sources */,
 				2B840D201A2C7FAE00D4ECF4 /* SDBannerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

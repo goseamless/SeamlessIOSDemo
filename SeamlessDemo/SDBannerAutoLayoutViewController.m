@@ -25,7 +25,7 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://goseamless.com"]];
     [self.webView loadRequest:request];
     
-    self.heightConstraint.constant = self.view.bounds.size.height-20;
+    self.heightConstraint.constant = [[UIScreen mainScreen]bounds].size.height-20;
     [self.webView.scrollView setContentInset:UIEdgeInsetsMake(-20, 0, 0, 0)];
     
     [self requestBannerAd];
@@ -60,7 +60,7 @@
         
         self.heightConstraint.constant = self.view.frame.size.height - SLAdSizeMMA.height - 20;
     }else{
-        self.heightConstraint.constant = self.view.frame.size.height;
+        self.heightConstraint.constant = self.view.frame.size.height-20;
     }
 }
 
