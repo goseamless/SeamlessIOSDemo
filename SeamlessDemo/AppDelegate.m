@@ -32,7 +32,7 @@
     }
     [[SLManager sharedManager] setLocationEnabled:YES];
     
-    SDMainViewController * homeVc = [[SDMainViewController alloc] initWithTitles:@[@"Asynchronous data fetch", @"paging and refresh", @"Multiple Interstitial Requests", @"Banner for all screens", @"Resizing view for banner", @"Banner with Auto Layout", @"MRE inside a scroll view", @"Simple Video Controller", @"Video Player in Custom View"] colors:@[COLOR1,COLOR2,COLOR3,COLOR4,COLOR5,COLOR6,COLOR7, COLOR8, COLOR7] contentIds:@[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9"]];
+    SDMainViewController * homeVc = [[SDMainViewController alloc] initWithTitles:@[@"Asynchronous data fetch", @"paging and refresh", @"Multiple Interstitial Requests", @"Banner for all screens", @"Resizing view for banner", @"Banner with Auto Layout", @"MRE inside a scroll view", @"Simple Video Controller", @"Video Player in Custom View", @"Video Player Error Handling"] colors:@[COLOR1,COLOR2,COLOR3,COLOR4,COLOR5,COLOR6,COLOR7, COLOR8, COLOR7, COLOR6] contentIds:@[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9", @"10"]];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:homeVc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

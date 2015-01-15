@@ -17,12 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"ford" withExtension:@"mp4"];
     NSString *entity = @"video-in-custom-view";
     
     [[SLPlayerManager sharedManager] addPlayerToView:self.view url:url entity:entity];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

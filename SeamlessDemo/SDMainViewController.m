@@ -164,6 +164,17 @@
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
+        case 10:{ // Video Player with Error Handler
+
+            NSURL *url = [[NSBundle mainBundle] URLForResource:@"ford" withExtension:@"mp4"];
+            NSString *entity = @"video-with-error-handler";
+            
+            UIView *attachmentView = [SLDefaultVideoControllerView new];
+            [[SLPlayerManager sharedManager] presentPlayerWithUrl:url entity:entity attachmentView:attachmentView shareText:nil shareUrls:nil shareImages:nil shareTitle:nil shareRecipientsMail:nil shareRecipientsSms:nil presentationHandler:nil startHandler:nil progressHandler:nil finishHandler:nil errorHandler:^{
+                [[[UIAlertView alloc] initWithTitle:@"Error" message:@"Something went wrong." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
+            }];
+        }
+            break;
             
         default:
             break;
