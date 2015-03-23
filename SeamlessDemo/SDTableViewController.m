@@ -92,6 +92,7 @@
     // your stuff here
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     cell.textLabel.text = [self.dataSource objectAtIndex:indexPath.row];
+    [cell.textLabel setTextAlignment:NSTextAlignmentCenter];
     
     return cell;
 }

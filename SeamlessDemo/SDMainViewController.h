@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDMainViewController : UIViewController
+@interface SDMainViewController : UIViewController<UIGestureRecognizerDelegate>
 
 - (id)initWithTitles:(NSArray*)titles colors:(NSArray*)colors contentIds:(NSArray*)contentIds;
 

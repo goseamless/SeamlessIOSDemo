@@ -7,7 +7,7 @@
 //
 
 #import "SDFloatingViewController.h"
-#import <Seamless/Seamless.h>
+#import "UIView+Toast.h"
 
 @interface SDFloatingViewController ()
 @property (nonatomic, strong) SLInterstitialAdManager * interstitialAdManager;
@@ -40,7 +40,6 @@
 {
     [super viewWillDisappear:YES];
     self.interstitialAdManager.delegate = nil;
-    [self.navigationController setToolbarHidden:YES animated:YES];
 }
 
 -(void)changeInterstitialOrientation
@@ -74,7 +73,7 @@
 }
 
 -(void)interstitialDidFailToLoad:(MPInterstitialAdController *)interstitial{
-    NSLog(@"Interstitial failed to load..");
+    [[Toast toast] makeToast:@"Interstitial Failed"];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,12 +8,15 @@
 
 #import "SDBannerAutoLayoutViewController.h"
 #import <Seamless/Seamless.h>
+#import "Define.h"
+#import "UIView+Toast.h"
 
 @interface SDBannerAutoLayoutViewController ()
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (nonatomic, strong) SLAdView * adView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *heightConstraint;
+@property (nonatomic, assign) CGSize adSize;
 
 @end
 
@@ -22,10 +25,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // iphone's banner size is MMA (320x50), ipad's banner is LB (728x90)
+    if (iPhone) {
+        self.adSize = SLAdSizeMMA;
+    }else{
+        self.adSize = SLAdSizeLeaderboard;
+    }
+    
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://goseamless.com"]];
     [self.webView loadRequest:request];
     
-    self.heightConstraint.constant = [[UIScreen mainScreen]bounds].size.height-20;
+    
     [self.webView.scrollView setContentInset:UIEdgeInsetsMake(-20, 0, 0, 0)];
     
     [self requestBannerAd];
@@ -38,10 +48,16 @@
 {
     self.adView = [[SLAdView alloc] initWithEntity:@"autolayout-banner"
                                           category:SLCategoryNews
-                                            adSize:SLAdSizeMMA
+                                            adSize:self.adSize
                                 rootViewController:self];
     self.adView.delegate = self;
     [self.adView loadAd];
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.heightConstraint.constant = self.view.bounds.size.height-20;
 }
 
 -(BOOL)prefersStatusBarHidden
@@ -54,13 +70,13 @@
     if ([self.view.subviews containsObject:self.adView]) {
         
         CGRect frame = self.adView.frame;
-        frame.origin.x = (self.view.frame.size.width - SLAdSizeMMA.width)/2;
-        frame.origin.y = self.view.frame.size.height - SLAdSizeMMA.height;
+        frame.origin.x = (self.view.frame.size.width - self.adSize.width)/2;
+        frame.origin.y = self.view.frame.size.height - self.adSize.height;
         self.adView.frame = frame;
         
-        self.heightConstraint.constant = self.view.frame.size.height - SLAdSizeMMA.height - 20;
+        self.heightConstraint.constant = self.view.frame.size.height - self.adSize.height - 20;
     }else{
-        self.heightConstraint.constant = self.view.frame.size.height-20;
+        self.heightConstraint.constant = self.view.frame.size.height - 20;
     }
 }
 
@@ -68,24 +84,26 @@
 
 -(void)adViewDidLoad:(SLAdView*)adView{
     // ad load success
+    // adView can be in any size, MMA, LB or MRE
         
     CGRect frame = self.adView.frame;
-    frame.origin.x = (self.view.frame.size.width - SLAdSizeMMA.width)/2;
-    frame.origin.y = self.view.frame.size.height - SLAdSizeMMA.height;
+    frame.origin.x = (self.view.frame.size.width - adView.frame.size.width)/2;
+    frame.origin.y = self.view.frame.size.height - adView.frame.size.height;
     self.adView.frame = frame;
     [self.view addSubview:self.adView];
     
     // Adjust the frame of the superview if needed.
-    self.heightConstraint.constant = self.view.frame.size.height - SLAdSizeMMA.height - 20;
+    self.heightConstraint.constant = self.view.frame.size.height - adView.frame.size.height - 20;
 }
 
 -(void)adViewDidFailToLoad:(SLAdView*)adView{
     // ad load failed
+    [[Toast toast] makeToast:@"Banner Failed to Load"];
     if ([self.view.subviews containsObject:self.adView]) {
         [self.adView removeFromSuperview];
         
         // Adjust the frame of the superview if needed.
-        self.heightConstraint.constant = self.view.frame.size.height;
+        self.heightConstraint.constant = self.view.frame.size.height - 20;
     }
 }
 

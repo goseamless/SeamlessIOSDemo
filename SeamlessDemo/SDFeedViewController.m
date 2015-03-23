@@ -37,8 +37,14 @@
     [refresh setTintColor:[UIColor blueColor]];
     
     [self setToolbarItems:@[paging, refresh] animated:YES];
-    [self.navigationController setToolbarHidden:NO animated:YES];
     
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController setToolbarHidden:NO animated:YES];
+    [self.navigationController.toolbar setBackgroundColor:[UIColor lightGrayColor]];
 }
 
 -(void)fetchDataSource

@@ -14,9 +14,13 @@
 #import "SDMreViewController.h"
 #import "SDResizeForBannerViewController.h"
 #import "SDBannerAutoLayoutViewController.h"
-#import "SDVideoViewController.h"
 #import <Seamless/Seamless.h>
 #import "Define.h"
+#import "SDSubVideoViewController.h"
+#import "SDVideoViewController.h"
+#import "SDMultiCollectionViewController.h"
+#import "SDPortraitOnlyNavController.h"
+#import "SDAppearanceViewController.h"
 
 @interface SDMainViewController ()
 @property (nonatomic, strong) NSArray * titles;
@@ -69,15 +73,10 @@
 
 -(void)showCurrentVersion
 {
-    [[[UIAlertView alloc] initWithTitle:@"Info" message:@"The version of Seamless framework used in this demo is v1.4.0" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
+    [[[UIAlertView alloc] initWithTitle:@"Info" message:@"The version of Seamless framework used in this demo is v2.0.0" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
 }
 
 -(BOOL)prefersStatusBarHidden
-{
-    return YES;
-}
-
--(BOOL)shouldAutorotate
 {
     return YES;
 }
@@ -97,16 +96,17 @@
     [cell.textLabel setTextColor:[UIColor whiteColor]];
     [cell.textLabel setText:[title uppercaseString]];
     cell.textLabel.textAlignment = NSTextAlignmentCenter;
+    [cell.textLabel setFont:[UIFont systemFontOfSize:16.0]];
 
     return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        return 200.0;
+    if ((self.titles.count * 100.0) < [[UIScreen mainScreen]bounds].size.height) {
+        return (self.view.frame.size.height - self.navigationController.navigationBar.frame.size.height)/[self.titles count];
     }else{
-        return 100.0;
+        return 100.0f;
     }
 }
 
@@ -116,14 +116,21 @@
 
     switch ([contentId integerValue]) {
             
-        case 1:{ // Collection View with Asynchronous data fetch
+        case 1:{ // Table View with Asynchronous data fetch
             SDTableViewController *controller = [[SDTableViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
-        case 2:{ // Table View with paging and refresh
-            SDFeedViewController *controller = [[SDFeedViewController alloc] init];
-            [self.navigationController pushViewController:controller animated:YES];
+        case 2:{
+            // Collection View View with paging and refresh (iPhone)
+            if (iPhone) {
+                SDFeedViewController *controller = [[SDFeedViewController alloc] init];
+                [self.navigationController pushViewController:controller animated:YES];
+            }else{
+                // Multi-column feed video
+                SDMultiCollectionViewController *controller = [[SDMultiCollectionViewController alloc] init];
+                [self.navigationController pushViewController:controller animated:YES];
+            }
         }
             break;
         case 3:{ // Interstitial
@@ -148,31 +155,25 @@
             break;
         case 7:{ // MRE inside a scroll view
             SDMreViewController *controller = [[SDMreViewController alloc] init];
-            [self.navigationController pushViewController:controller animated:YES];
+            SDPortraitOnlyNavController *nav = [[SDPortraitOnlyNavController alloc] initWithRootViewController:controller];
+            [self presentViewController:nav animated:YES completion:nil];
         }
             break;
-        case 8:{ // Simple Video as Modal View Controller
-            
-            NSURL *url = [[NSBundle mainBundle] URLForResource:@"ford" withExtension:@"mp4"];
-            NSString *entity = @"simple-modal-view-video";
-            
-            [[SLPlayerManager sharedManager] presentPlayerWithUrl:url entity:entity];
-        }
-            break;
-        case 9:{ // Adding Video Player to Custom view
+        case 8:{ // Modal Video Player
             SDVideoViewController *controller = [[SDVideoViewController alloc] init];
             [self.navigationController pushViewController:controller animated:YES];
         }
             break;
-        case 10:{ // Video Player with Error Handler
-
-            NSURL *url = [[NSBundle mainBundle] URLForResource:@"ford" withExtension:@"mp4"];
-            NSString *entity = @"video-with-error-handler";
-            
-            UIView *attachmentView = [SLDefaultVideoControllerView new];
-            [[SLPlayerManager sharedManager] presentPlayerWithUrl:url entity:entity attachmentView:attachmentView shareText:nil shareUrls:nil shareImages:nil shareTitle:nil shareRecipientsMail:nil shareRecipientsSms:nil presentationHandler:nil startHandler:nil progressHandler:nil finishHandler:nil errorHandler:^{
-                [[[UIAlertView alloc] initWithTitle:@"Error" message:@"Something went wrong." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
-            }];
+        case 9:{ // Subview Video Player
+            SDSubVideoViewController *controller = [[SDSubVideoViewController alloc] init];
+            [self.navigationController pushViewController:controller animated:YES];
+        }
+            break;
+        case 10:{ // Feed Ad Customization
+            SDAppearanceViewController *controller = [[SDAppearanceViewController alloc] init];
+            SDPortraitOnlyNavController *nav = [[SDPortraitOnlyNavController alloc] initWithRootViewController:controller];
+            [self presentViewController:nav animated:YES completion:nil];
+            //[self.navigationController pushViewController:controller animated:YES];
         }
             break;
             

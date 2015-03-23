@@ -14,7 +14,22 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOb-Ta-2gL">
+                    <rect key="frame" x="262" y="285" width="77" height="30"/>
+                    <state key="normal" title="Play Video!">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="playVideo:" destination="-1" eventType="touchUpInside" id="GiJ-Nm-kmP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="dOb-Ta-2gL" secondAttribute="centerX" constant="-0.5" id="e1S-fJ-1Hu"/>
+                <constraint firstAttribute="centerY" secondItem="dOb-Ta-2gL" secondAttribute="centerY" id="h1i-Pa-WNv"/>
+            </constraints>
         </view>
     </objects>
 </document>

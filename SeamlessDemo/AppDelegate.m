@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SDMainViewController.h"
+#import "SDNavigationController.h"
 #import <Seamless/Seamless.h>
 #import "Define.h"
 
@@ -23,17 +24,20 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        //iPad token
-        [[SLManager sharedManager] setAppToken:@"7f2ac74d-53b8-4768-9731-c8f7c76d9faf"];
-    }else{
-        //iPhone token
+    NSString *feedAdName;
+    if (iPhone) {
+        // iPhone app token
         [[SLManager sharedManager] setAppToken:@"07d4c7f4-bf30-4eba-a932-29dd7fed2993"];
+        feedAdName = @"paging and refresh";
+    }else{
+        // iPad app token
+        [[SLManager sharedManager] setAppToken:@"7f2ac74d-53b8-4768-9731-c8f7c76d9faf"];
+        feedAdName = @"Multi Column feed";
     }
-    [[SLManager sharedManager] setLocationEnabled:YES];
     
-    SDMainViewController * homeVc = [[SDMainViewController alloc] initWithTitles:@[@"Asynchronous data fetch", @"paging and refresh", @"Multiple Interstitial Requests", @"Banner for all screens", @"Resizing view for banner", @"Banner with Auto Layout", @"MRE inside a scroll view", @"Simple Video Controller", @"Video Player in Custom View", @"Video Player Error Handling"] colors:@[COLOR1,COLOR2,COLOR3,COLOR4,COLOR5,COLOR6,COLOR7, COLOR8, COLOR7, COLOR6] contentIds:@[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9", @"10"]];
-    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:homeVc];
+    SDMainViewController * homeVc = [[SDMainViewController alloc] initWithTitles:@[@"Asynchronous data fetch", feedAdName, @"Multiple Interstitial Requests", @"Banner for all screens", @"Resizing view for banner", @"Banner with Auto Layout", @"MRE inside a scroll view", @"Modal Video Controller", @"Subview Video Player", @"Feed Ad Customization"] colors:@[COLOR1,COLOR2,COLOR3,COLOR4,COLOR5,COLOR6,COLOR7,COLOR8, COLOR9, COLOR10] contentIds:@[@"1",@"2",@"3",@"4",@"5",@"6",@"7", @"8",@"9",@"10"]];
+    
+    SDNavigationController * nav = [[SDNavigationController alloc] initWithRootViewController:homeVc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     

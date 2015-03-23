@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Seamless/Seamless.h>
 
 @interface SDFloatingViewController : UIViewController
     
